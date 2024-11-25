@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naruto - Página Inicial</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Naruto_logo.svg/800px-Naruto_logo.svg.png" alt="Logo Naruto">
+    </div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="galeria.html">Personagens</a></li>
+        <li><a href="index.html#episodios">Episódios</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle">
+      <i class="theme-icon" id="themeIcon">🌙</i>
+    </div>
+  </header>
+  
+
+  <main>
+    <section class="banner">
+      <img src="https://i.pinimg.com/originals/92/b7/3c/92b73cd6467ceee125a99da4cf2f41c9.png" alt="Banner Naruto">
+      <div class="banner-overlay">
+        <h1>Bem-vindo ao mundo de Naruto!</h1>
+        <p>Explore as incríveis aventuras do ninja mais determinado de Konoha!</p>
+      </div>
+    </section>
+
+    <section id="episodios" class="episodes">
+      <h2>Episódios Favoritos</h2>
+      <div class="episode-card">
+        <img src="https://m.media-amazon.com/images/S/pv-target-images/7873ad3883b1fa3543d6bdfa931435240966ac0051db858aea021952a35c39da.jpg" alt="Naruto Episódio 1">
+        <h3>Episódio 1: Naruto Uzumaki</h3>
+        <p>O começo da jornada de um ninja que nunca desiste.</p>
+        <button onclick="abrirTrailer('https://youtu.be/-G9BqkgZXRA?si=JIloW3cgd3hunB_R')">Assistir Trailer</button>
+      </div>
+      <div class="episode-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREDdE2FhvMS6y9xPV7zxJKMDdtDflnNtl-gQ&s" alt="Naruto Episódio 20">
+        <h3>Episódio 20: O Exame Chuunin</h3>
+        <p>Provas, lutas e a revelação do potencial ninja.</p>
+        <button onclick="abrirTrailer('https://youtu.be/QczGoCmX-pI?si=4C1QurVMRjOBOCVx')">Assistir Trailer</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito por Bernardo dos Santos.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

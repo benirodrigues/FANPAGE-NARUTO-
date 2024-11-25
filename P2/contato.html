@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Naruto</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Naruto_logo.svg/800px-Naruto_logo.svg.png" alt="Logo Naruto">
+    </div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="galeria.html">Personagens</a></li>
+        <li><a href="index.html#episodios">Episódios</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h1>Entre em Contato</h1>
+      <p>Gostaríamos de ouvir sua opinião! Preencha o formulário abaixo e entraremos em contato o mais breve possível.</p>
+      
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" placeholder="Escreva sua mensagem" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Enviar Mensagem</button>
+        </form>
+        <div id="formResponse" class="form-response"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito por Bernardo dos Santos.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
